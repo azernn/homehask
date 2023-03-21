@@ -1,0 +1,511 @@
+@import url(catalog.css);
+.navbar {
+  padding-bottom: 5px;
+  padding-left: 70px;
+}
+.navbar .logotext {
+  background: linear-gradient(50deg, #fb3c00, #ffb800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Golos Text", sans-serif;
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.navbar .headcontiner {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.navbar .headcontiner .logoo {
+  vertical-align: middle;
+}
+.navbar .headcontiner .deleveryadress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 120px;
+}
+.navbar .headcontiner .deleveryadress .icon {
+  display: flex;
+}
+.navbar .headcontiner .deleveryadress .deleveryto {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.navbar .headcontiner .deleveryadress .text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar .headcontiner .searchloginbutton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 140px;
+}
+.navbar .headcontiner .searchloginbutton .search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .headcontiner .searchloginbutton .searchtext {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #424242;
+  padding-left: 9px;
+  text-align: center;
+}
+.navbar .headcontiner .searchloginbutton .login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin-left: 24px;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+  border-radius: 8px;
+  width: 110px;
+  height: 46px;
+  border: none;
+}
+.navbar .headcontiner .searchloginbutton .login .logintext {
+  padding-left: 15px;
+  color: rgb(255, 184, 0);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  padding-bottom: 4px;
+}
+
+.heroContiner {
+  background: url("herobgmain.png");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 90px;
+}
+.heroContiner .heroTitle {
+  font-size: 88px;
+  color: aliceblue;
+  padding-top: 99px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.heroContiner .heroTitle2 {
+  font-size: 22px;
+  font-family: "Source Code Pro", monospace;
+  line-height: 26px;
+  line-height: 120%;
+}
+.heroContiner .card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 650px;
+  height: 195px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  border-radius: 16px;
+}
+.heroContiner .card .top {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(230, 213, 213);
+  width: 650px;
+  height: 97.5px;
+}
+.heroContiner .card .top .tab1 {
+  width: 148px;
+  height: 38px;
+  background: rgba(241, 114, 40, 0.1019607843);
+  margin-left: 24px;
+  margin-top: 24px;
+  border-radius: 8px;
+  display: flex;
+}
+.heroContiner .card .top .tab1 .icon {
+  width: 23px;
+  height: 18px;
+  padding-left: 20px;
+  padding-top: 10px;
+  display: flex;
+}
+.heroContiner .card .top .tab1 .text {
+  width: 68px;
+  height: 18px;
+  color: #f17228;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+.heroContiner .card .top .tab2 {
+  width: 129px;
+  height: 38px;
+  margin-top: 32px;
+  padding-left: 30px;
+  display: flex;
+}
+.heroContiner .card .top .tab2 .text {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  padding-left: 10px;
+  color: rgb(117, 117, 117);
+}
+.heroContiner .buttom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heroContiner .buttom .textfield-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  height: 70px;
+  width: 620px;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+.heroContiner .buttom .textfield {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgb(245, 245, 245);
+  width: 470px;
+  height: 40px;
+  border-radius: 8px;
+  padding-top: 7px;
+  padding-left: 16px;
+}
+.heroContiner .buttom .textfield .inputtext {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 8px;
+  padding-bottom: 6px;
+  color: rgb(158, 158, 158);
+}
+.heroContiner .buttom .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 43px;
+  border-style: none;
+  background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+  border-radius: 8px;
+  margin-left: 15px;
+}
+.heroContiner .buttom .button .buttontext {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: white;
+  padding-left: 8px;
+  padding-bottom: 5px;
+}
+
+.flash-deals {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 920px;
+  height: 267px;
+  margin-left: 190px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.flash-deals .flashdeals-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  height: 267px;
+}
+.flash-deals .flashdeals-card .food-photo {
+  width: 200px;
+  height: 169px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+.flash-deals .flashdeals-card .food-photo .discount {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 50px;
+  background: rgb(255, 179, 14);
+  border-radius: 0px 32px 0px 0px;
+  position: absolute;
+  margin-top: 120px;
+}
+.flash-deals .flashdeals-card .food-photo .discount .number {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 106%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-left: 4px;
+}
+.flash-deals .flashdeals-card .food-photo .discount .percentage-symbol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60px;
+  height: 45px;
+  margin-left: 5px;
+}
+.flash-deals .flashdeals-card .food-photo .discount .percentage-symbol .percent {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-top: 3px;
+}
+.flash-deals .flashdeals-card .food-photo .discount .percentage-symbol .off {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+.flash-deals .flashdeals-card .texts-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.flash-deals .flashdeals-card .texts-badge .greys-vage {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 120%;
+  color: rgb(66, 66, 66);
+}
+.flash-deals .flashdeals-card .texts-badge .frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: rgba(241, 114, 40, 0.2);
+  border-radius: 8px;
+  height: 27px;
+  width: 120px;
+  margin-top: 7px;
+}
+.flash-deals .flashdeals-card .texts-badge .frame .remaining {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 120%;
+  color: #F17228;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.HowDoesItWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+  height: 330px;
+  margin-top: 40px;
+}
+.HowDoesItWork .main-title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 112%;
+  color: rgb(241, 114, 40);
+  text-align: center;
+  padding-top: 40px;
+}
+.HowDoesItWork .features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 740px;
+  height: 400px;
+  padding-top: 40px;
+  padding-left: 10px;
+  gap: 30px;
+}
+.HowDoesItWork .features .frame1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 180px;
+}
+.HowDoesItWork .features .frame1 .title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 120%;
+  color: rgb(67, 67, 67);
+  text-align: center;
+}
+.HowDoesItWork .features .frame1 .body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.7px;
+  line-height: 140%;
+  text-align: center;
+  align-items: stretch;
+  color: rgb(158, 158, 158);
+  padding-top: 10px;
+}
+
+.popularitems {
+  height: 400px;
+  margin-top: 55px;
+}
+.popularitems .sliderbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  gap: 925px;
+  padding-top: 150px;
+  padding-left: 118px;
+}
+.popularitems .title-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+.popularitems .title-cards .c1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.popularitems .title-cards .c1 .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 48px;
+  margin-top: 7px;
+  gap: 10px;
+  width: 162px;
+  height: 20px;
+  background: #F17228;
+  box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+  border-radius: 5px;
+  border-style: none;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #FFFFFF;
+  text-align: center;
+}
+.popularitems .title-cards .title {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 112%;
+  text-align: center;
+}
+.popularitems .title-cards .title .cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.popularitems .title-cards .title .Name-Location-Price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  align-self: stretch;
+}
+.popularitems .title-cards .title .Name-Location-Price .Name {
+  color: rgb(66, 66, 66);
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  padding-top: 3px;
+}
+.popularitems .title-cards .title .Name-Location-Price .Location {
+  padding-left: 4px;
+}
+.popularitems .title-cards .title .Name-Location-Price .Price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 5px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 120%;
+  color: rgb(33, 33, 33);
+}
+.popularitems .title-cards .cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  padding-top: 20px;
+}
+
+/*.searchbyfood-features-appdownload{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+height: 600px;
+.searchbyfood{
+  background: rgba(254, 250, 241, 1);
+height: 200px;
+}
+}*//*# sourceMappingURL=catalog.css.map */
