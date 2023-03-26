@@ -233,7 +233,7 @@ margin-left: 15px;
       }
     }
    }
-}
+  }
 .flash-deals{
     display: flex;
     flex-direction: row;
@@ -411,6 +411,10 @@ position: absolute;
 gap: 925px;
 padding-top: 150px ;
 padding-left: 118px;
+button{
+  border-style: none;
+  background-color: #FFFFFF;
+}
 }
 .title-cards{
   display: flex;
@@ -502,16 +506,154 @@ padding-top: 20px;
 }
 }
 }
-/*.searchbyfood-features-appdownload{
-display: flex;
+.Featured-Restaurants{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  height: 600px;
+padding-top: 50px;
+  .title{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 112%;
+    text-align: center;
+    color: #212121;
+  }
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+  height: 900px;
+  .top{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+  }
+  .div1{
+  display: flex;
 flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 213px ;
+height: 300px;
+.photo{
+  border-radius: 16px;
+}
+.badge{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+position: absolute;
+width: 100px;
+height: 24px;
+padding-left: 15px;
+padding-top: 10px;
+}
+.image-name-review-badge{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+height: 180px;
+.image-name-review{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .name-review{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+padding-left: 15px;
+.name{
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+}
+}
+}
+.badge{
+ display: flex;
+flex-direction: row;
+align-items: flex-start;
+margin-top: 59px;
+width: 124px;
+height: 20px;
+background: rgba(241, 114, 40, 0.2);
+border-radius: 8px;
+.text{
+  font-family: 'Source Sans Pro';
+  color: #F17228;
+  font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 100%;
+}
+}
+.badge2{
+  display: flex;
+flex-direction: row;
+align-items: center;
+background: rgba(121, 185, 60, 0.2);
+border-radius: 8px;
+width: 77px;
+height: 25px;
+margin-top: 22px;
+padding-left: 6px;
+.text2{
+  font-family: 'Source Sans Pro';
+  color: #79B93C;
+  font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 100%;
+}
+}
+}
+  }
+  }
+  .buttom{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+  }
+  button{
+    display: flex;
+flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 0px;
-height: 600px;
-.searchbyfood{
-  background: rgba(254, 250, 241, 1);
-height: 200px;
+padding: 12px 20px;
+gap: 10px;
+width: 100px;
+height: 55px;
+background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 14px;
+border-style: none;
+margin-top: 25px;
+.text{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
 }
-}*/
-
+  }
+  }

@@ -408,6 +408,10 @@
   padding-top: 150px;
   padding-left: 118px;
 }
+.popularitems .sliderbutton button {
+  border-style: none;
+  background-color: #FFFFFF;
+}
 .popularitems .title-cards {
   display: flex;
   flex-direction: column;
@@ -497,15 +501,154 @@
   padding-top: 20px;
 }
 
-/*.searchbyfood-features-appdownload{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-height: 600px;
-.searchbyfood{
-  background: rgba(254, 250, 241, 1);
-height: 200px;
+.Featured-Restaurants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  height: 600px;
+  padding-top: 50px;
 }
-}*//*# sourceMappingURL=catalog.css.map */
+.Featured-Restaurants .title {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 112%;
+  text-align: center;
+  color: #212121;
+}
+.Featured-Restaurants .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+  height: 900px;
+}
+.Featured-Restaurants .cards .top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+.Featured-Restaurants .cards .div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 213px;
+  height: 300px;
+}
+.Featured-Restaurants .cards .div1 .photo {
+  border-radius: 16px;
+}
+.Featured-Restaurants .cards .div1 .badge {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.Featured-Restaurants .cards .div1 .image-name-review-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  height: 180px;
+}
+.Featured-Restaurants .cards .div1 .image-name-review-badge .image-name-review {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Featured-Restaurants .cards .div1 .image-name-review-badge .image-name-review .name-review {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding-left: 15px;
+}
+.Featured-Restaurants .cards .div1 .image-name-review-badge .image-name-review .name-review .name {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+}
+.Featured-Restaurants .cards .div1 .image-name-review-badge .badge {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 59px;
+  width: 124px;
+  height: 20px;
+  background: rgba(241, 114, 40, 0.2);
+  border-radius: 8px;
+}
+.Featured-Restaurants .cards .div1 .image-name-review-badge .badge .text {
+  font-family: "Source Sans Pro";
+  color: #F17228;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+}
+.Featured-Restaurants .cards .div1 .image-name-review-badge .badge2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(121, 185, 60, 0.2);
+  border-radius: 8px;
+  width: 77px;
+  height: 25px;
+  margin-top: 22px;
+  padding-left: 6px;
+}
+.Featured-Restaurants .cards .div1 .image-name-review-badge .badge2 .text2 {
+  font-family: "Source Sans Pro";
+  color: #79B93C;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+}
+.Featured-Restaurants .buttom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+.Featured-Restaurants button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+  width: 100px;
+  height: 55px;
+  background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+  box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+  border-radius: 14px;
+  border-style: none;
+  margin-top: 25px;
+}
+.Featured-Restaurants button .text {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=catalog.css.map */

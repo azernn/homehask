@@ -1,0 +1,113 @@
+@import url(main2.css);
+.continer {
+  display: flex;
+  flex-direction: row;
+  width: 1150px;
+  height: 620px;
+  position: absolute;
+  margin-left: 90px;
+  box-sizing: border-box;
+  border: 1px solid rgb(241, 114, 40);
+}
+.continer .right {
+  background: rgb(241, 114, 40);
+  width: 42%;
+  left: 864px;
+}
+.continer .right .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 64px;
+  position: absolute;
+  width: 347.83px;
+  height: 550px;
+  margin-left: 74px;
+  margin-top: 100px;
+}
+.continer .right .frame .text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #faede7;
+}
+.continer .right .frame .list {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ed9f66;
+}
+.continer .right .frame .list ul li {
+  margin: 5px;
+}
+.continer .left {
+  width: 58%;
+}
+.continer .left .main-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 460px;
+  height: 300px;
+  margin-top: 125px;
+  margin-left: 90px;
+}
+.continer .left .main-frame .sing-up-text {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 72px;
+  align-items: center;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(241, 114, 40);
+}
+.continer .left .main-frame .sing-up-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 460px;
+  height: 370px;
+}
+.continer .left .main-frame .sing-up-tools .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ed9f66;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 60px;
+}
+.continer .left .main-frame .sing-up-tools .email {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ed9f66;
+}
+.continer .left .main-frame .sing-up-tools input {
+  border-radius: 5px;
+  border-color: rgb(241, 114, 40);
+  height: 26px;
+  width: 413px;
+}
+.continer .left .main-frame .sing-up-tools button {
+  width: 413px;
+  height: 33px;
+  border-radius: 36px;
+  background-color: rgb(241, 114, 40);
+  border-style: none;
+  font-family: "Source Sans Pro", sans-serif;
+  color: beige;
+}
+.continer .left .main-frame .link, .continer .left .main-frame a {
+  color: rgb(241, 114, 40);
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 50px;
+  margin-right: 40px;
+}/*# sourceMappingURL=main2.css.map */
