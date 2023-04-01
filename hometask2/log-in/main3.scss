@@ -1,0 +1,227 @@
+@import url(main3.css);
+/*.main-frame{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+margin-left: 145px;
+width: 600px;
+height: 580px;
+.top-frame{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 600px;
+height: 400px;
+.login-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 600px;
+    height: 300px;
+    .login-text{
+    color: rgb(241, 114, 40);
+    font-family: "Source Sans Pro";
+    font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+}
+.inputs{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 600px;
+height: 250px;
+margin-top: 30px;
+.email{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+input{
+    width: 410px;
+    height: 20px;
+    border-color: #ed9f66;
+    border-radius: 7px;
+}
+.text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #ed9f66;
+}
+}
+button{
+
+}
+}
+}
+}
+} */
+.continer {
+    top: 71px;
+    bottom: 0px;
+    height: 835px;
+    .main-frame {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      .top-frame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .login-items {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          gap: 10px;
+          .login-text{
+            color: rgb(241, 114, 40);
+    font-family: "Source Sans Pro";
+    font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+          }
+          .inputs{
+            display: flex;
+            flex-direction: column;
+           align-items: flex-start;
+           gap: 9px;
+          }
+          .password {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .password-input{
+                input{
+                    width: 280px;
+                    height: 20px;
+                    border-radius: 3px;
+                    border-color: #ed9f66;
+                    border-width: 1px;   
+                }
+            
+            .text{
+                font-weight: 400;
+            font-size: 16px;
+           line-height: 24px;
+           color: #ed9f66;
+           font-family: "Source Sans Pro";
+            }
+        }
+        }
+          
+          }
+            .checkbox {
+              display: flex;
+              flex-direction: row;
+              gap: 4px;
+              justify-content: flex-start;
+            
+            }
+            .button {
+              display: flex;
+              flex-direction: column;
+              gap: 6px;
+              margin-top: 20px;
+              button {
+                width: 270px;
+                height: 32px;
+                border-style: none;
+               background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+               border-radius: 16px;
+               color:white;
+              }
+              a{
+                font-size: 12px;
+                color: #ed9f66;
+                font-family: "Source Sans Pro";
+                text-decoration: none;
+              }
+            }
+        }
+        .or-signup{
+            display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+height: 90px;
+gap: 5px;
+a, p{
+    color: rgb(241, 114, 40);
+    font-family: "Source Sans Pro" ;
+    font-size: 13px;
+}
+        }
+      }
+      .login-text {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+      }
+  
+      @media  screen and (max-width: 600px) {
+        .continer {
+          width: 600px;
+          background-color: brown;
+        }
+        .main-frame {
+          width: 280px;
+        }
+        .or-signup{
+          width: 100%;
+        }
+        .buttom-frame{
+            width: 280px;
+        }
+        .divider{
+            width: 280px;
+        }
+      }
+      .email {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+        .text{
+            font-weight: 400;
+            font-size: 16px;
+           line-height: 24px;
+color: #ed9f66;
+font-family: "Source Sans Pro";
+        }
+        input {
+        width: 280px;
+        height: 20px;
+        border-radius: 3px;
+        border-color: #ed9f66;
+        border-width: 1px;
+        }
+      }
+      .buttom-frame{
+        display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 70px;
+.divider{
+    display: flex;
+flex-direction: row;
+align-items: center;
+hr{
+    width: 86px;
+    height: 1px;
+    background-color: rgb(241, 114, 40);
+}
+p{
+    color: rgb(241, 114, 40);
+    font-size: 12px;
+    font-family: "Source Sans Pro";
+}
+}
+      }
+  }
