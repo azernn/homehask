@@ -1,23 +1,35 @@
 @import url(catalog.css);
 
-.navbar {
-  padding-bottom: 5px;
-  padding-left: 70px;
+.head-nav {
+  width: 1920px;
+  height: 696px;
 
-  .logotext {
-    background: linear-gradient(50deg, #fb3c00, #ffb800);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Golos Text', sans-serif;
-    padding-left: 10px;
-    font-weight: 700;
-    font-size: 1.8rem;
-  }
 
   .headcontiner {
     align-items: center;
     display: flex;
-    position: relative;
+    flex-direction: row;
+    width: 1816px;
+
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 88px;
+    gap: 111px;
+    position: absolute;
+    left: 0px;
+    top: -2px;
+
+
+    .logotext {
+      background: linear-gradient(50deg, #fb3c00, #ffb800);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: 'Golos Text', sans-serif;
+      padding-left: 10px;
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
 
     .logoo {
       vertical-align: middle;
@@ -27,7 +39,6 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin-left: 120px;
 
       .icon {
         display: flex;
@@ -57,7 +68,6 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin-left: 140px;
 
       .search {
         display: flex;
@@ -100,160 +110,163 @@
           line-height: 100%;
           padding-bottom: 4px;
         }
-
       }
     }
   }
-}
 
-.heroContiner {
-  background: url("herobgmain.png");
-  height: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-left: 90px;
+  .heroContiner {
+    background: url("herobgmain.png");
+    position: absolute;
+    width: 1920px;
+    height: 620px;
+    left: 0px;
+    top: 76px;
 
-  .heroTitle {
-    font-size: 88px;
-    color: aliceblue;
-    padding-top: 99px;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+    .heroTitle {
+      font-size: 88px;
+      color: aliceblue;
+      padding-top: 99px;
+      font-family: 'Source Sans Pro', sans-serif;
+      margin-left: 220px;
+    }
 
-  .heroTitle2 {
-    font-size: 22px;
-    font-family: "Source Code Pro", monospace;
-    line-height: 26px;
-    line-height: 120%;
-  }
+    .heroTitle2 {
+      font-size: 22px;
+      font-family: "Source Code Pro", monospace;
+      line-height: 26px;
+      line-height: 120%;
+      margin-left: 220px;
+    }
 
-  .card {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    width: 650px;
-    height: 195px;
-    background-color: #ffffff;
-    margin-top: 50px;
-    border-radius: 16px;
-
-    .top {
+    .card {
+      box-sizing: border-box;
       display: flex;
-      flex-direction: row;
-      border-bottom: 1px solid rgb(230, 213, 213);
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
       width: 650px;
-      height: 97.5px;
+      height: 178px;
+      background-color: #ffffff;
+      margin-top: 50px;
+      border-radius: 16px;
+      margin-left: 220px;
 
-      .tab1 {
-        width: 148px;
-        height: 38px;
-        background: #f172281a;
-        margin-left: 24px;
-        margin-top: 24px;
-        border-radius: 8px;
+      .top {
         display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgb(230, 213, 213);
+        width: 650px;
+        height: 97.5px;
 
-        .icon {
-          width: 23px;
-          height: 18px;
-          padding-left: 20px;
-          padding-top: 10px;
+        .tab1 {
+          width: 148px;
+          height: 38px;
+          background: #f172281a;
+          margin-left: 24px;
+          margin-top: 24px;
+          border-radius: 8px;
           display: flex;
+
+          .icon {
+            width: 23px;
+            height: 18px;
+            padding-left: 20px;
+            padding-top: 10px;
+            display: flex;
+          }
+
+          .text {
+            width: 68px;
+            height: 18px;
+            color: #f17228;
+            font-weight: 700;
+            font-size: 16px;
+            padding-left: 10px;
+            padding-top: 8px;
+            font-family: 'Source Code Pro', monospace;
+          }
         }
 
-        .text {
-          width: 68px;
-          height: 18px;
-          color: #f17228;
+        .tab2 {
+          width: 129px;
+          height: 38px;
+          margin-top: 32px;
+          padding-left: 30px;
+          display: flex;
+
+          .text {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 100%;
+            padding-left: 10px;
+            color: rgba(117, 117, 117, 1);
+          }
+        }
+      }
+    }
+
+    .buttom {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .textfield-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0px;
+        height: 70px;
+        width: 620px;
+        padding-left: 20px;
+        padding-top: 8px;
+      }
+
+      .textfield {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: rgba(245, 245, 245, 1);
+        width: 470px;
+        height: 40px;
+        border-radius: 8px;
+        padding-top: 7px;
+        padding-left: 16px;
+
+        .inputtext {
+          font-family: 'Open Sans';
+          font-weight: 400;
+          font-size: 18px;
+          padding-left: 8px;
+          padding-bottom: 6px;
+          color: rgba(158, 158, 158, 1);
+
+        }
+      }
+
+      .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 43px;
+        border-style: none;
+        background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+        border-radius: 8px;
+        margin-left: 15px;
+
+        .buttontext {
+          font-family: 'Source Sans Pro';
           font-weight: 700;
           font-size: 16px;
-          padding-left: 10px;
-          padding-top: 8px;
-          font-family: 'Source Code Pro', monospace;
-        }
-      }
-
-      .tab2 {
-        width: 129px;
-        height: 38px;
-        margin-top: 32px;
-        padding-left: 30px;
-        display: flex;
-
-        .text {
-          font-family: 'Source Sans Pro';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 20px;
           line-height: 100%;
-          padding-left: 10px;
-          color: rgba(117, 117, 117, 1);
+          text-align: center;
+          color: white;
+          padding-left: 8px;
+          padding-bottom: 5px;
         }
-      }
-    }
-  }
-
-  .buttom {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    .textfield-button {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      margin-top: 0px;
-      height: 70px;
-      width: 620px;
-      padding-left: 20px;
-      padding-top: 8px;
-    }
-
-    .textfield {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      background: rgba(245, 245, 245, 1);
-      width: 470px;
-      height: 40px;
-      border-radius: 8px;
-      padding-top: 7px;
-      padding-left: 16px;
-
-      .inputtext {
-        font-family: 'Open Sans';
-        font-weight: 400;
-        font-size: 18px;
-        padding-left: 8px;
-        padding-bottom: 6px;
-        color: rgba(158, 158, 158, 1);
-
-      }
-    }
-
-    .button {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 150px;
-      height: 43px;
-      border-style: none;
-      background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
-      border-radius: 8px;
-      margin-left: 15px;
-
-      .buttontext {
-        font-family: 'Source Sans Pro';
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 100%;
-        text-align: center;
-        color: white;
-        padding-left: 8px;
-        padding-bottom: 5px;
       }
     }
   }
@@ -263,11 +276,12 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  width: 920px;
-  height: 267px;
+  
   margin-left: 190px;
-  margin-top: 40px;
-  display: flex;
+  padding-top: 120px;
+  gap: 16px;
+  width: 1475.65px;
+  height: 516px;
   justify-content: space-between;
 
   .flashdeals-card {
