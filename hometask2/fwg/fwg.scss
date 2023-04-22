@@ -512,6 +512,15 @@
     width: 1481px;
     height: 605px;
 
+    .title1 {
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 43px;
+      line-height: 112%;
+      text-align: center;
+    }
+
     .cards {
       display: flex;
       flex-direction: row;
@@ -554,52 +563,45 @@
       }
     }
 
-    .title {
-      font-family: 'Source Sans Pro';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 43px;
-      line-height: 112%;
-      text-align: center;
 
-      .Name-Location-Price {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 8px;
-        align-self: stretch;
-        gap: 8px;
-        width: 283.4px;
-        height: 94px;
+    .Name-Location-Price {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 8px;
+      align-self: stretch;
+      gap: 8px;
+      width: 283.4px;
+      height: 94px;
 
-        .Name {
-          color: rgba(66, 66, 66, 1);
-          font-family: 'Source Sans Pro';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 22px;
-          line-height: 120%;
-          padding-top: 3px;
-        }
+      .Name {
+        color: rgba(66, 66, 66, 1);
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120%;
+        padding-top: 3px;
+      }
 
-        .Location {
-          img {
-            width: 142px;
-          }
-        }
-
-        .Price {
-          padding-left: 5px;
-          font-family: 'Source Sans Pro';
-          font-style: normal;
-          font-weight: 900;
-          font-size: 22px;
-          line-height: 120%;
-          color: rgba(33, 33, 33, 1);
+      .Location {
+        img {
+          width: 142px;
         }
       }
+
+      .Price {
+        padding-left: 5px;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 120%;
+        color: rgba(33, 33, 33, 1);
+      }
     }
+
   }
 }
 
@@ -1002,7 +1004,7 @@
           font-weight: 700;
           font-size: 22px;
           line-height: 100%;
-          margin-top: 10px;
+          margin-top: 7px;
         }
       }
 
@@ -1229,21 +1231,23 @@
             width: 128px;
           }
         }
-.texts{
-  position: absolute;
-  padding-top: 149px;
-  margin-left: -49px;
-        .title {
-          font-size: 23px;
-          margin-left: 53px;
-          padding-top: 27px;
-        }
 
-        .body {
-          font-size: 20px;
-          margin-left: 47px;
+        .texts {
+          position: absolute;
+          padding-top: 149px;
+          margin-left: -49px;
+
+          .title {
+            font-size: 23px;
+            margin-left: 53px;
+            padding-top: 27px;
+          }
+
+          .body {
+            font-size: 20px;
+            margin-left: 47px;
+          }
         }
-      }
       }
     }
   }
@@ -1251,6 +1255,7 @@
   .popularitems {
     width: 500px;
     margin-top: 0;
+    height: 155rem;
 
     .sliderbutton {
       display: none;
@@ -1258,12 +1263,111 @@
 
     .title-cards {
       left: 56px;
-     .cards{
-      flex-direction: column;
-      position: absolute;
-     }
+
+      .title1 {
+        position: absolute;
+        left: 10px;
+      }
+
+      .cards {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+      }
     }
 
   }
-  
+
+  .Featured-Restaurants {
+    height: 253rem;
+    margin-left: 0px;
+    gap: 10px;
+    padding-top: 0;
+
+    p {
+      position: absolute;
+      left: 30px;
+      padding-top: 0;
+      font-size: 37px;
+    }
+  }
+
+  .grid-cards {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 72px;
+    padding-top: 100px;
+
+    .card-item {
+      gap: 8px;
+
+      .image-name-review-badge {
+        margin-left: 66px;
+      }
+    }
+  }
+
+  .cta-footer {
+    width: 400px;
+    margin-left: 0;
+
+    .cta {
+      width: 385px;
+      height: 240px;
+      background: #FFB30E;
+
+      .text {
+        font-size: 30px;
+      }
+
+      button {
+        width: 154px;
+      }
+    }
+
+    .footer {
+      width: 400px;
+
+      .our-top-cities {
+        display: none;
+      }
+
+      .menu-subs-rights {
+        margin-left: 0;
+
+        .menu-subs {
+          flex-direction: column;
+
+          .menu {
+            width: 370px;
+            gap: 36px;
+            margin-left: 0;
+          }
+
+          .follow-subs {
+            margin-left: 7px;
+            .subs {
+              margin-left: 6px;
+
+              button {
+                width: 100px;
+              }
+
+              input {
+                width: 240px;
+              }
+            }
+          }
+        }
+
+        .rights {
+          padding-top: 249px;
+          margin-left: 7px;
+        }
+
+        hr {
+          width: 130px;
+        }
+      }
+    }
+  }
 }

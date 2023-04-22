@@ -454,6 +454,14 @@
   width: 1481px;
   height: 605px;
 }
+.popularitems .title-cards .title1 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 112%;
+  text-align: center;
+}
 .popularitems .title-cards .cards {
   display: flex;
   flex-direction: row;
@@ -493,15 +501,7 @@
   color: #FFFFFF;
   text-align: center;
 }
-.popularitems .title-cards .title {
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 43px;
-  line-height: 112%;
-  text-align: center;
-}
-.popularitems .title-cards .title .Name-Location-Price {
+.popularitems .title-cards .Name-Location-Price {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -512,7 +512,7 @@
   width: 283.4px;
   height: 94px;
 }
-.popularitems .title-cards .title .Name-Location-Price .Name {
+.popularitems .title-cards .Name-Location-Price .Name {
   color: rgb(66, 66, 66);
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -521,10 +521,10 @@
   line-height: 120%;
   padding-top: 3px;
 }
-.popularitems .title-cards .title .Name-Location-Price .Location img {
+.popularitems .title-cards .Name-Location-Price .Location img {
   width: 142px;
 }
-.popularitems .title-cards .title .Name-Location-Price .Price {
+.popularitems .title-cards .Name-Location-Price .Price {
   padding-left: 5px;
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -904,7 +904,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 100%;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 .grid-cards .card-item .image-name-review-badge .badge2 {
   display: flex;
@@ -1088,6 +1088,7 @@
   .popularitems {
     width: 500px;
     margin-top: 0;
+    height: 155rem;
   }
   .popularitems .sliderbutton {
     display: none;
@@ -1095,8 +1096,87 @@
   .popularitems .title-cards {
     left: 56px;
   }
+  .popularitems .title-cards .title1 {
+    position: absolute;
+    left: 10px;
+  }
   .popularitems .title-cards .cards {
     flex-direction: column;
     position: absolute;
+    top: 60px;
+  }
+  .Featured-Restaurants {
+    height: 253rem;
+    margin-left: 0px;
+    gap: 10px;
+    padding-top: 0;
+  }
+  .Featured-Restaurants p {
+    position: absolute;
+    left: 30px;
+    padding-top: 0;
+    font-size: 37px;
+  }
+  .grid-cards {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 72px;
+    padding-top: 100px;
+  }
+  .grid-cards .card-item {
+    gap: 8px;
+  }
+  .grid-cards .card-item .image-name-review-badge {
+    margin-left: 66px;
+  }
+  .cta-footer {
+    width: 400px;
+    margin-left: 0;
+  }
+  .cta-footer .cta {
+    width: 385px;
+    height: 240px;
+    background: #FFB30E;
+  }
+  .cta-footer .cta .text {
+    font-size: 30px;
+  }
+  .cta-footer .cta button {
+    width: 154px;
+  }
+  .cta-footer .footer {
+    width: 400px;
+  }
+  .cta-footer .footer .our-top-cities {
+    display: none;
+  }
+  .cta-footer .footer .menu-subs-rights {
+    margin-left: 0;
+  }
+  .cta-footer .footer .menu-subs-rights .menu-subs {
+    flex-direction: column;
+  }
+  .cta-footer .footer .menu-subs-rights .menu-subs .menu {
+    width: 370px;
+    gap: 36px;
+    margin-left: 0;
+  }
+  .cta-footer .footer .menu-subs-rights .menu-subs .follow-subs {
+    margin-left: 7px;
+  }
+  .cta-footer .footer .menu-subs-rights .menu-subs .follow-subs .subs {
+    margin-left: 6px;
+  }
+  .cta-footer .footer .menu-subs-rights .menu-subs .follow-subs .subs button {
+    width: 100px;
+  }
+  .cta-footer .footer .menu-subs-rights .menu-subs .follow-subs .subs input {
+    width: 240px;
+  }
+  .cta-footer .footer .menu-subs-rights .rights {
+    padding-top: 249px;
+    margin-left: 7px;
+  }
+  .cta-footer .footer .menu-subs-rights hr {
+    width: 130px;
   }
 }/*# sourceMappingURL=fwg.css.map */
